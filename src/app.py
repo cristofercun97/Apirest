@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request
-from src.config import Config
+from config import Config
 from flask_mysqldb import MySQL
 from flask_pymongo import PyMongo
 
